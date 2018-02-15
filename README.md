@@ -1,7 +1,9 @@
 
 
-#Commons Android app
+##Commons Android app
+
 ######Android app to upload pictures to Wikimedia Commons
+
 [GitHub repository](https://github.com/commons-app)
 <br>
 
