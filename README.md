@@ -1,9 +1,5 @@
-<h1 align=center> Commons Android app</h1>
+#Commons Android app
 
-<h5 align=center>Android app to upload pictures to Wikimedia Commons</h5>
-<a align=center href="https://github.com/commons-app/apps-android-commons">GitHub repository</a>
-
-<h2> Project description and architecture </h2>
 
 The Wikimedia Commons Android app is an application that is used to upload images, sounds and other media files to the Wikimedia Commons repository. Files uploaded to the repository can then further be used across all Wikimedia projects such as Wikipedia, WikiBooks, Wikinews and more. The purpose of the Commons repository is to:
 > "provide a media file repository that makes available public domain and freely-licensed educational media content to all, and that acts as a common repository for the various projects of the Wikimedia Foundation.[<sup>[1]</sup>](#sources)
