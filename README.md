@@ -1,7 +1,7 @@
 # Commons Android app
 
 ###### Android app to upload pictures to Wikimedia Commons
-<a href="https://github.com/commons-app/apps-android-commons">GitHub repository</a>
+[GitHub repository](https://github.com/commons-app/apps-android-commons)
 
 ## Project description and architecture
 
@@ -29,6 +29,7 @@ Firstly, the major separation of code lies in separating data, layouts and graph
 The Java logic is separated even further into a set of areas, as documented in the [repository documentation](https://github.com/commons-app/apps-android-commons/wiki/Technical-Overview):
 
  <a id="sources">Sources:</a>
+ 
 [1]https://commons.wikimedia.org/wiki/Commons:Project_scope#Aim_of_Wikimedia_Commons
 [2]https://github.com/commons-app/apps-android-commons/blob/master/README.md
 [3]https://developer.android.com/guide/components/index.html
@@ -41,14 +42,18 @@ The Java logic is separated even further into a set of areas, as documented in t
 
 ## Selected issues
 
-Title: Fix Lint errors/warnings
-URL: https://github.com/commons-app/apps-android-commons/issues/171
-Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
+**Title:** Fix Lint errors/warnings
+
+**URL:** https://github.com/commons-app/apps-android-commons/issues/171
+
+**Summary:** The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
 
 <br>
-Title: Fix Lint errors/warnings
-URL: https://github.com/commons-app/apps-android-commons/issues/171
-Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were ctually doable.
+**Title:** Fix Lint errors/warnings
+
+**URL:** https://github.com/commons-app/apps-android-commons/issues/171
+
+**Summary:** The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were ctually doable.
 
 ## Onboarding experience
 We actually ran into a problem building the latest state of the repository, so we went back to the latest runnable commit, and ran the project from that state.
