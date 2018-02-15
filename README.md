@@ -1,8 +1,8 @@
 
 
-#<center>Commons Android app</center>
-######<center>Android app to upload pictures to Wikimedia Commons</center>
-<center>[GitHub repository](https://github.com/commons-app)</center>
+#Commons Android app
+######Android app to upload pictures to Wikimedia Commons
+[GitHub repository](https://github.com/commons-app)
 <br>
 
 ##Project description and architecture
