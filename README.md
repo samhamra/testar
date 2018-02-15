@@ -18,9 +18,9 @@ Generally Android applications are built using a set of components, there are ma
 
 **Layouts** define the visual structure of the an application, such as user interface elements for an activity. Android allows for two ways of declaring layouts, either by providing an XML structure using androids XML vocabulary, or instantiating the layout elements at runtime using the View and ViewGroup classes provided in the android SDK.[<sup>[6]</sup>](#sources)
 
-Services are components which can perform long-running operations without providing a user interface, and can run both in the foreground and background. Examples include playing music, performing interprocess communication, file I/O and more.[<sup>[7]</sup>](#sources)
+**Services** are components which can perform long-running operations without providing a user interface, and can run both in the foreground and background. Examples include playing music, performing interprocess communication, file I/O and more.[<sup>[7]</sup>](#sources)
 
-Intents are messaging objects that can be used to request actions from other app components, such as starting activities, services or broadcasting messages to other applications.[<sup>[8]</sup>](#sources)
+**Intents** are messaging objects that can be used to request actions from other app components, such as starting activities, services or broadcasting messages to other applications.[<sup>[8]</sup>](#sources)
 
 This particular Android application is written in Java using the Android SDK.
 
@@ -48,7 +48,8 @@ The Java logic is separated even further into a set of areas, as documented in t
 
 **Summary:** The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
 
-<br>
+
+
 **Title:** Fix Lint errors/warnings
 
 **URL:** https://github.com/commons-app/apps-android-commons/issues/171
