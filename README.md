@@ -1,4 +1,4 @@
-##Commons Android app
+<h1 align=center> Commons Android app</h1>
 
 ######Android app to upload pictures to Wikimedia Commons
 
