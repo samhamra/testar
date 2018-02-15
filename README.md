@@ -37,7 +37,8 @@ The Java logic is separated even further into a set of areas, as documented in t
 [6]https://developer.android.com/guide/topics/ui/declaring-layout.html
 [7]https://developer.android.com/guide/components/services.html
 [8]https://developer.android.com/guide/components/intents-filters.html
-<br>
+
+
 ##Selected issues
 
 >Title: Fix Lint errors/warnings
