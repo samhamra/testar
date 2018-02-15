@@ -1,9 +1,9 @@
-<h1 align=center> Commons Android app</h1>
+# Commons Android app
 
-<h5 align=center>Android app to upload pictures to Wikimedia Commons</h5>
+###### Android app to upload pictures to Wikimedia Commons
 <a href="https://github.com/commons-app/apps-android-commons">GitHub repository</a>
 
-<h2> Project description and architecture </h2>
+## Project description and architecture
 
 The Wikimedia Commons Android app is an application that is used to upload images, sounds and other media files to the Wikimedia Commons repository. Files uploaded to the repository can then further be used across all Wikimedia projects such as Wikipedia, WikiBooks, Wikinews and more. The purpose of the Commons repository is to:
 > "provide a media file repository that makes available public domain and freely-licensed educational media content to all, and that acts as a common repository for the various projects of the Wikimedia Foundation.[<sup>[1]</sup>](#sources)
@@ -39,16 +39,16 @@ The Java logic is separated even further into a set of areas, as documented in t
 [8]https://developer.android.com/guide/components/intents-filters.html
 
 
-##Selected issues
+## Selected issues
 
->Title: Fix Lint errors/warnings
->URL: https://github.com/commons-app/apps-android-commons/issues/171
->Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
+Title: Fix Lint errors/warnings
+URL: https://github.com/commons-app/apps-android-commons/issues/171
+Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
 
 <br>
->Title: Fix Lint errors/warnings
->URL: https://github.com/commons-app/apps-android-commons/issues/171
->Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were actually doable.
+Title: Fix Lint errors/warnings
+URL: https://github.com/commons-app/apps-android-commons/issues/171
+Summary: The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were ctually doable.
 
 ## Onboarding experience
 We actually ran into a problem building the latest state of the repository, so we went back to the latest runnable commit, and ran the project from that state.
