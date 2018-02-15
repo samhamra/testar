@@ -1,7 +1,7 @@
 <h1 align=center> Commons Android app</h1>
 
 <h5 align=center>Android app to upload pictures to Wikimedia Commons</h5>
-<a href="https://github.com/commons-app/apps-android-commons">GitHub repository</a>
+<a align=center href="https://github.com/commons-app/apps-android-commons">GitHub repository</a>
 
 <h2> Project description and architecture </h2>
 
