@@ -1,5 +1,3 @@
-
-
 ##Commons Android app
 
 ######Android app to upload pictures to Wikimedia Commons
