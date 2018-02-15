@@ -2,7 +2,7 @@
 
 <h5 align=center>Android app to upload pictures to Wikimedia Commons</h5>
 
-<p align=center>[GitHub repository](https://github.com/commons-app)</p>
+<a align=center src="https://github.com/commons-app">GitHub repository</a>
 <br>
 
 ##Project description and architecture
