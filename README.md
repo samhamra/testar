@@ -33,59 +33,59 @@ The Java logic is separated even further into a set of areas, as documented in t
 
 Android account integration, Commons account creation and login including two-factor authentication. Also includes authentication session management.
 
-[/caching](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/caching)
+[**/caching**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/caching)
 
 Unfinished general caching controller
 
-[/category](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/category)
+[**/category**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/category)
 
 Everything about Categories
 
-[/contributions](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/contributions)
+[**/contributions**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/contributions)
 
 The internal handling and representations of the uploaded data, includes storage and synchronization between Commons and the android app.
 
-[/data](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//data)
+[**/data**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//data)
 
 Perhaps obsolete database helper
 
-[/location](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/location)
+[**/location**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/location)
 
 Handling of fetching, displaying and updating the user's location using the device's built-in GPS provider.
 
-[/media](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/media)
+[**/media**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/media)
 
 Upload/Picture detail view
 
-[/modifications](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/modifications)
+[**/modifications**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/modifications)
 
 A "Modification" is the internal representation of a change to an existing upload, includes storage and synchronization code, similar to contributions handling.
 
-[/mwapi](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/mwapi)
+[**/mwapi**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/mwapi)
 
 Communication with the Commons Mediawiki API and Event Logging APIs. For example authentication, data fetching, uploading, modifying and much more.
 
-[/nearby](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/nearby)
+[**/nearby**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/nearby)
 
 Handling of the "Places nearby" feature, Wikidata Query Service
 
-[/settings](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/settings)
+[**/settings**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/settings)
 
 Handling of "Settings" feature
 
-[/theme](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/theme)
+[**/theme**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/theme)
 
 Application allows for theme changes, that logic lies here. Also includes code for navigation.
 
-[/widget](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/widget)
+[**/widget**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/widget)
 
 Includes widgets and fragments used by for example the "Places nearby" feature, aswell as displaying html with links and backward compatible textual representations.
 
-[/uploader](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/uploader)
+[**/uploader**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/uploader)
 
 Contains data upload logic
 
-[/utils](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/utils)
+[**/utils**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/utils)
 
 Various utilities
 
