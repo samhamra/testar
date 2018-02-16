@@ -29,7 +29,7 @@ Firstly, the major separation of code lies in separating data, layouts and graph
 The Java logic is separated even further into a set of areas, as documented in the [repository documentation](https://github.com/commons-app/apps-android-commons/wiki/Technical-Overview):
 ### [/app/src/main/java/fr/free/nrw/commons/](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/)
 
-[/auth](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//auth)
+[**/auth**](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//auth)
 
 Android account integration, Commons account creation and login including two-factor authentication. Also includes authentication session management.
 
