@@ -6,7 +6,7 @@ Name: Wikimedia Commons Android app
 
 ## Project description and architecture
 The Wikimedia Commons Android app is an application that is used to upload images, sounds and other media files to the Wikimedia Commons repository. Files uploaded to the repository can then further be used across all Wikimedia projects such as Wikipedia, WikiBooks, Wikinews and more. The purpose of the Commons repository is to:
-> "provide a media file repository that makes available public domain and freely-licensed educational media content to all, and that acts as a common repository for the various projects of the Wikimedia Foundation.[<sup>[1]</sup>](#sources)
+> "provide a media file repository that makes available public domain and freely-licensed educational media content to all, and that acts as a common repository for the various projects of the Wikimedia Foundation."[<sup>[1]</sup>](#sources)
 
 Now the Android app is a tool to help simplify the uploading process by using their Android phones/tablets to quickly upload their files. It was originally founded by the Wikimedia Foundation but is now managed and maintained by grantees and volunteers of the Wikimedia community as an open-source project.[<sup>[2]</sup>](#sources)
 
@@ -27,9 +27,43 @@ This particular Android application is written in Java using the Android SDK.
 Firstly, the major separation of code lies in separating data, layouts and graphics from the logic. All of the res(ources) lie under /app/src/main/res/, this includes layouts, graphics and other data such as textual strings translated into a larger number of different languages as this is a globally used application. Pretty much the rest of the codebase, that is, activities, fragments, services, intents, widgets and more are written in Java and located under  /app/src/main/java/fr/free/nrw/commons/.
 
 The Java logic is separated even further into a set of areas, as documented in the [repository documentation](https://github.com/commons-app/apps-android-commons/wiki/Technical-Overview):
+### [/app/src/main/java/fr/free/nrw/commons/](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/)
+[/auth](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//auth)
+Android account integration, Commons account creation and login including two-factor authentication. Also includes authentication session management.
+[/caching](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/caching)
+Unfinished general caching controller
+[/category](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/category)
+Everything about Categories
+[/contributions](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/contributions)
+The internal handling and representations of the uploaded data, includes storage and synchronization between Commons and the android app.
+[/data](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//data)
+Perhaps obsolete database helper
+[/location](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/location)
+Handling of fetching, displaying and updating the user's location using the device's built-in GPS provider.
+[/media](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/media)
+Upload/Picture detail view
+[/modifications](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/modifications)
+A "Modification" is the internal representation of a change to an existing upload, includes storage and synchronization code, similar to contributions handling.
+[/mwapi](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/mwapi)
+Communication with the Commons Mediawiki API and Event Logging APIs. For example authentication, data fetching, uploading, modifying and much more.
+[/nearby](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/nearby)
+Handling of the "Places nearby" feature, Wikidata Query Service
+[/settings](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/settings)
+Handling of "Settings" feature
+[/theme](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/theme)
+Application allows for theme changes, that logic lies here. Also includes code for navigation.
+[/widget](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/widget)
+Includes widgets and fragments used by for example the "Places nearby" feature, aswell as displaying html with links and backward compatible textual representations.
+[/uploader](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/uploader)
+Contains data upload logic
+[/utils](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/utils)
+Various utilities
+
+
+
 
  <a id="sources">Sources:</a>
- 
+
 [1]https://commons.wikimedia.org/wiki/Commons:Project_scope#Aim_of_Wikimedia_Commons
 [2]https://github.com/commons-app/apps-android-commons/blob/master/README.md
 [3]https://developer.android.com/guide/components/index.html
@@ -54,21 +88,21 @@ The Java logic is separated even further into a set of areas, as documented in t
 
 **URL:** https://github.com/commons-app/apps-android-commons/issues/889
 
-**Summary:** The project uses an asynchronous class to load and cache images for display to the user. The issue requests that this is replaced with the Glide library, which is a more advanced and Google supported image loading library. 
+**Summary:** The project uses an asynchronous class to load and cache images for display to the user. The issue requests that this is replaced with the Glide library, which is a more advanced and Google supported image loading library.
 
 **Title:** Tech-improvement: JSON based Wikimedia API
 
 **URL:** https://github.com/commons-app/apps-android-commons/issues/885
 
-**Summary:** Replace the current XML approach to Wikimedia API calls, which is deprecated, to the supported JSON format. 
+**Summary:** Replace the current XML approach to Wikimedia API calls, which is deprecated, to the supported JSON format.
 
 ## Onboarding experience
-When we started working on the project, there was a build issue with the translated string values in the app. This was a result of improper naming of the North Korean variant of the Korean language translation. Reading into the Android documentation on string translation, the proper name was identified and pointed out in an issue post on Github and a pull request fixing the problem. After a couple days that pull request was accepted and merged into the official repository. In the meantime, the group members of this assignment applied the fix in order to continue working on refactoring. 
+When we started working on the project, there was a build issue with the translated string values in the app. This was a result of improper naming of the North Korean variant of the Korean language translation. Reading into the Android documentation on string translation, the proper name was identified and pointed out in an issue post on Github and a pull request fixing the problem. After a couple days that pull request was accepted and merged into the official repository. In the meantime, the group members of this assignment applied the fix in order to continue working on refactoring.
 
 ## Requirements affected by functionality being refactored
 **Lint errors**
 TODO: enter list here
-**Glide:** This refactoring required changes to the version of Android being used and adding Glide to the dependency list. The changes to the code base itself was in Contributions and Media. Specifically, the java and xml code related to displaying all contributions made by the user and the detailed view of a single contribution. 
+**Glide:** This refactoring required changes to the version of Android being used and adding Glide to the dependency list. The changes to the code base itself was in Contributions and Media. Specifically, the java and xml code related to displaying all contributions made by the user and the detailed view of a single contribution.
 ## Existing test cases relating to refactored code
 
 ## The refactoring carried out
