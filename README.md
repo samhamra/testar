@@ -1,10 +1,10 @@
 # Commons Android app
 
-###### Android app to upload pictures to Wikimedia Commons
+## Project
+Name: Wikimedia Commons Android app
 [GitHub repository](https://github.com/commons-app/apps-android-commons)
 
 ## Project description and architecture
-
 The Wikimedia Commons Android app is an application that is used to upload images, sounds and other media files to the Wikimedia Commons repository. Files uploaded to the repository can then further be used across all Wikimedia projects such as Wikipedia, WikiBooks, Wikinews and more. The purpose of the Commons repository is to:
 > "provide a media file repository that makes available public domain and freely-licensed educational media content to all, and that acts as a common repository for the various projects of the Wikimedia Foundation.[<sup>[1]</sup>](#sources)
 
@@ -50,17 +50,27 @@ The Java logic is separated even further into a set of areas, as documented in t
 
 
 
-**Title:** Fix Lint errors/warnings
+**Title:** Tech-improvement: Use Glide for image loading / caching
 
-**URL:** https://github.com/commons-app/apps-android-commons/issues/171
+**URL:** https://github.com/commons-app/apps-android-commons/issues/889
 
-**Summary:** The project contained some hundred lint warnings and errors, the ones that we only felt a subset of those were ctually doable.
+**Summary:** The project uses an asynchronous class to load and cache images for display to the user. The issue requests that this is replaced with the Glide library, which is a more advanced and Google supported image loading library. 
+
+**Title:** Tech-improvement: JSON based Wikimedia API
+
+**URL:** https://github.com/commons-app/apps-android-commons/issues/885
+
+**Summary:** Replace the current XML approach to Wikimedia API calls, which is deprecated, to the supported JSON format. 
 
 ## Onboarding experience
-We actually ran into a problem building the latest state of the repository, so we went back to the latest runnable commit, and ran the project from that state.
+When we started working on the project, there was a build issue with the translated string values in the app. This was a result of improper naming of the North Korean variant of the Korean language translation. Reading into the Android documentation on string translation, the proper name was identified and pointed out in an issue post on Github and a pull request fixing the problem. After a couple days that pull request was accepted and merged into the official repository. In the meantime, the group members of this assignment applied the fix in order to continue working on refactoring. 
 
 ## Requirements affected by functionality being refactored
+**Lint errors**
+TODO: enter list here
+**Glide:** This refactoring required changes to the version of Android being used and adding Glide to the dependency list. The changes to the code base itself was in Contributions and Media. Specifically, the java and xml code related to displaying all contributions made by the user and the detailed view of a single contribution. 
 ## Existing test cases relating to refactored code
+
 ## The refactoring carried out
 (Link to) a UML diagram and its description
 ## Test logs
@@ -81,3 +91,7 @@ For each team member, how much time was spent in
 ## Overall experience
 What are your main take-aways from this project? What did you learn?
 Is there something special you want to mention here
+
+## Updates to the source (For P+ 4)
+
+## Benefits, drawbacks, and limitations of refactoring (For P+ 6)
