@@ -30,12 +30,15 @@ The Java logic is separated even further into a set of areas, as documented in t
 ### [/app/src/main/java/fr/free/nrw/commons/](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/)
 
 [/auth](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons//auth)
+
 Android account integration, Commons account creation and login including two-factor authentication. Also includes authentication session management.
 
 [/caching](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/caching)
+
 Unfinished general caching controller
 
 [/category](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/category)
+
 Everything about Categories
 
 [/contributions](https://github.com/commons-app/apps-android-commons/tree/master/app/src/main/java/fr/free/nrw/commons/contributions)
