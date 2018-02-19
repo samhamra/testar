@@ -1,3 +1,4 @@
+
 # Commons Android app
 
 ## Project
@@ -153,12 +154,12 @@ The MediaWikiApi interface needs to be reimplemented using the OkHttp client (as
 
 Even though much can be reused, the MWApi class used in ApacheHttpClientMediaWikiApi needs to be replaced with a class that uses the JSON MediaWiki API in this new implementation of the MediaWikiApi. This new class should support the following:
 
-a. Validating login
-b. Getting an edit token
-c. Sending post/get requests with parameters
-d. Uploading files
-e. Setting/getting auth cookie
-f. Keeping login state
+- Validating login
+- Getting an edit token
+- Sending post/get requests with parameters
+- Uploading files
+- Setting/getting auth cookie
+- Keeping login state
 
 
 New tests need to be written for the new MediaWikiApi implementation. Like for ApacheHttpClientMediaWikiApi, much code can be reused from ApacheHttpClientMediaWikiApiTest with some minor changes (e.g. changing tests that use xml to use json instead).
@@ -201,6 +202,7 @@ We focused on three different aspects of refactoring optimising the code, updati
 
 ## Overall experience
 Each group member shared some insight into how they felt after the assignment:
+
 **Jón:** I guess the biggest takeaway for me was the fact that it is not as hard as it might seem to contribute to the open source community. I had in the past looked at some projects in my field of interest but always shied away from contributing to them, this assignment changed my view on that and I intend to take a second stab at some of the projects I had looked at in the past.
 
 **Sam:** It’s easier to make good refactoring changes if you have good communication with the rest of the development team, to make sure your changes is valid/correct and useful. Aswell, having a good understanding of the project, structure and architecture could be extremely time-saving when working with some issues. Also, I thought this project was lacking a lot of in-source documentation. I for one also learned some basic Android, project setup, project build, language basics etc.
@@ -213,6 +215,7 @@ Each group member shared some insight into how they felt after the assignment:
 
 ## Links to accepted pull requests
 https://github.com/commons-app/apps-android-commons/pull/1161
+
 https://github.com/commons-app/apps-android-commons/pull/1136
 
 
