@@ -161,7 +161,7 @@ Is there something special you want to mention here
 ## Benefits, drawbacks, and limitations of refactoring (For P+ 6)
 
 
-
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
