@@ -161,7 +161,17 @@ Is there something special you want to mention here
 ## Benefits, drawbacks, and limitations of refactoring (For P+ 6)
 
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
+- Management of contributions made by the user
+  - Displaying details of a contribution to a user
+  - Management of stored contributions
+  - Changes to custom imageview object for displaying contributions
+  - User facing upload activity changes 
+  - Parsing function of local contributions
+- User facing and background aspects of logging in
+- Various changes to translation files
+- Modification of class that loads components and injects dependencies
+- General utility functions
+- Nearby things
+- Categories list for user
+- Static field leaks
+- Removed/updated calls to deprecated code
