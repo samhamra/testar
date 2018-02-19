@@ -219,7 +219,7 @@ https://github.com/commons-app/apps-android-commons/pull/1161
 https://github.com/commons-app/apps-android-commons/pull/1136
 
 
- <a id="sources">Sources:</a>
+ ##<a id="sources">Sources:</a>
 
 [1]https://commons.wikimedia.org/wiki/Commons:Project_scope#Aim_of_Wikimedia_Commons
 [2]https://github.com/commons-app/apps-android-commons/blob/master/README.md
